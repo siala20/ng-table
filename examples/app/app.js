@@ -6,7 +6,7 @@ define([
 
     var app = angular.module('main', ['ngTable']).
     controller('DemoCtrl', function($scope, $filter, $q, NgTableParams) {
-        var data = [{name: "Moroni", age: 50, money: -10},
+        var data = [{code: "Moroni", categorie: 50, money: -10},
                     {name: "Tiancum", age: 43,money: 120},
                     {name: "Jacob", age: 27, money: 5.5},
                     {name: "Nephi", age: 29,money: -54},
